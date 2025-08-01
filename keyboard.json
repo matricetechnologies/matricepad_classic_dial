@@ -1,0 +1,52 @@
+{
+    "manufacturer": "matrice_technologies",
+    "keyboard_name": "matrice_pad_classic_dial",
+    "bootloader": "caterina",
+    "diode_direction": "ROW2COL",
+    "direct_pins": [
+        ["F6", "NO_PIN", "NO_PIN", "NO_PIN"]
+    ],
+    "encoder": {
+        "rotary": [
+            {"pin_a": "F5", "pin_b": "F4", "resolution": 1}
+        ]
+    },
+    "features": {
+        "console": true,
+        "encoder": true,
+        "extrakey": true
+    },
+    "matrix_pins": {
+        "cols": ["D1", "D0", "D4", "C6"],
+        "rows": ["B4", "E6", "D7", "NO_PIN"]
+    },
+    "matrix_size": {
+        "cols": 4,
+        "rows": 4
+    },
+    "processor": "atmega32u4",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x6060",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_3x4_knob": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [1, 3], "x": 3, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2},
+                {"matrix": [2, 3], "x": 3, "y": 2},
+                {"matrix": [3, 0], "x": 4, "y": 1}
+            ]
+        }
+    }
+}

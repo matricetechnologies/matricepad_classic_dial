@@ -1,0 +1,7 @@
+BOOTLOADER = caterina
+ENCODER_ENABLE     = yes
+ENCODER_MAP_ENABLE = yes
+DIRECT_PIN_ENABLE  = yes
+CONSOLE_ENABLE     = yes
+EXTRAKEY_ENABLE    = yes
+LAYOUTS = 3x4_knob

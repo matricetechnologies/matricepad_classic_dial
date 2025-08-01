@@ -1,0 +1,7 @@
+#pragma once
+
+#define ENCODER_MAP_LAYERS        1
+#define ENCODER_ENABLE_INTERRUPTS 0
+#define ENCODER_MAP_KEY_DELAY     5
+
+#define USB_POLLING_INTERVAL_MS   1
