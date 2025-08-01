@@ -1,6 +1,6 @@
 # Matrice Pad Classic Dial (Macropad)
 
-![matrice_pad_classic_dial](https://imgur.com/a/bY6L8Nx)
+![matrice_pad_classic_dial](https://imgur.com/a/qIZxXbx)
 
 A simple 3x4 macropad with rotary encoder that utilizes the Arduino Pro Micro
 
