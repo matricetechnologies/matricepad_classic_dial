@@ -18,11 +18,7 @@
     },
     "matrix_pins": {
         "cols": ["D1", "D0", "D4", "C6"],
-        "rows": ["B4", "E6", "D7", "NO_PIN"]
-    },
-    "matrix_size": {
-        "cols": 4,
-        "rows": 4
+        "rows": ["B4", "E6", "D7", "F6", "NO_PIN"]
     },
     "processor": "atmega32u4",
     "usb": {
@@ -48,7 +44,7 @@
                 {"matrix": [2, 2], "x": 2, "y": 2},
                 {"matrix": [2, 3], "x": 3, "y": 2},
 				
-                {"matrix": [3, 0], "x": 4, "y": 5}
+                {"matrix": [3, 0], "x": 4, "y": 3}
             ]
         }
     }

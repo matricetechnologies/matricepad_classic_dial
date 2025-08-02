@@ -15,15 +15,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 const uint16_t PROGMEM encoder_map[1][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [0] = { { KC_VOLD, KC_VOLU } }
 };
-
-/* ── make F6 act as a key ─────────────────────────────────────────── */
-void matrix_scan_user(void) {
-    static bool last = true;            // start HIGH (pull-up)
-    bool now = readPin(F6);             // LOW = pressed
-    if (now != last) {
-        last = now;
-        if (!now) {                     // went LOW → key down
-            tap_code16(KC_AUDIO_MUTE);  // send mute
-        }
-    }
-}
